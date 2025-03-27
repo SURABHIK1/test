@@ -13,14 +13,31 @@ git reset --hard ID
 git push  origin master/main 
 git clone URL
 
-2. 
-git checkout -b branch1
-git add .
-git commit -m "b1"
-git switch master
-git merge branch1
-git diff master
-git merge
+2.  
+git init 
+git remote add origin 
+vi 1.txt
+cat 1.txt 
+git add . 
+git commit -m version 
+git switch branch1 
+vi 1.txt 
+cat 1.txt 
+git add . 
+git commit -m version 2 
+git merge master 
+vi 2.txt 
+cat 2.txt 
+git add . 
+git commit -m version 3 
+git switch branch
+vi 2.txt 
+cat 2.txt 
+git add . 
+git commit -m version 4 
+git merge master
+
+
 
 4.
 FROM openjdk
