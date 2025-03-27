@@ -20,7 +20,7 @@ vi 1.txt
 cat 1.txt 
 git add . 
 git commit -m version 
-git switch branch1 
+git checkout -b branch1 
 vi 1.txt 
 cat 1.txt 
 git add . 
