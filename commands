@@ -29,5 +29,10 @@ COPY . /app
 RUN javac Add.java
 CMD ["java","Add"]
 
+FROM python
+WORKDIR /app
+COPY . /app
+CMD ["python","add.py"]
+
 docker build -t img1 .
 docker run img1
