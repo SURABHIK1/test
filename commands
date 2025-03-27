@@ -1,7 +1,7 @@
 1. 
 git init
 git remote add origin URL
-git config --global user.email "vvce22ise0020@vvce.ac.in"
+git config --global user.email "vvce22ise0056@vvce.ac.in"
 git config --global user.name "shreyakumarswamy"
 vi sa.txt
 cat sa.txt
